@@ -1,0 +1,71 @@
+/* General Styles for Recipe Details */
+.recipe-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+ul.ingredients-list {
+  font-size: 12px;  /* Reduced font size */
+  line-height: 1.4;  /* Slightly reduced line height */
+  padding-left: 20px;
+}
+
+ul.ingredients-list li {
+  margin: 4px 0;  /* Reduced margin between list items */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Buttons container for alignment */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/* Loading Text */
+.loading {
+  font-size: 18px;
+  text-align: center;
+  color: #777;
+}
